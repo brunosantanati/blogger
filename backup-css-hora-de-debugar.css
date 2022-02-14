@@ -1,0 +1,39 @@
+.header-inner{
+  text-align: center;
+}
+
+div.content-inner {
+  border-radius: 0.5em;
+}
+
+/* tables start */
+tr:nth-child(even) {
+  background: #000;
+  color: #fff;
+}
+tr.table-head {
+  background: #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+tr.table-head td.first-title{
+  width: 30%
+}
+tr.table-head td.second-title{
+  width: 70%
+}
+table.general-table{
+  border: 1px dashed #000;
+  border-collapse: collapse;
+}
+table.general-table td {
+  border: 1px dashed #000;
+}
+/* table end */
+
+.dark-box{
+  overflow: auto;
+  background-color: #292929;
+}
